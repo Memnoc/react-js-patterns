@@ -93,6 +93,13 @@ button:focus-visible {
   background: linear-gradient(to right, #ef473a, #cb2d3e);
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2em 0;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
